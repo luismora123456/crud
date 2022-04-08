@@ -1,0 +1,13 @@
+npx create-react-app crud Creacion de react app
+
+ npm install react-router-dom --save Instalacion de React Router
+  <Route exact path="/" component={List}></Route>
+Difiere esta parte debido a la version en el tutorial
+
+npm install bootstrap --save para la instalacion de bootstrap
+
+import "bootstrap/dist/css/bootstrap.css" en App.js
+
+Link to para no refrescar la pagina viene de react-router-dom
+
+componentDidMount cuando se cargue el metodo permitira consumir informacion URL
